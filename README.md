@@ -18,8 +18,8 @@
 We will be working with **Feature Branch** workflow: A simple and effective way to manage development tasks. It ensures each feature or bug fix is isolated, making collaboration easier and reducing conflicts.
 ## 1.2 How Does Feature Branch Workflow Works
 
-1. **Start with `main` (or `develop`)**:
-   - All work begins from the main branch or a dedicated development branch (`develop`).
+1. **Start with `main`**:
+   - All work begins from the main branch.
 
 2. **Create a Feature Branch**:
    - When you start a new task, create a feature branch. This keeps your work isolated and avoids impacting others' work.
@@ -42,7 +42,7 @@ We will be working with **Feature Branch** workflow: A simple and effective way 
      ```
 
 5. **Open a Pull Request (PR)**:
-   - Once the feature is complete, open a PR to merge your branch into `main` or `develop`.
+   - Once the feature is complete, open a PR to merge your branch into `main`.
    - Describe what your PR does and link any relevant issues (e.g., `Fixes #123`).
 
 6. **Review & Merge**:
